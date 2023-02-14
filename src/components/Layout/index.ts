@@ -1,0 +1,1 @@
+export {PrimaryLayout} from "./primaryLayout.component"

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary-black: 29 29 32;
+  --primary-green: 80 238 89;
+  --primary-grey: 163 163 163;
+  --primary-white: 255 255 255;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color: rgb(var(--primary-black));
+  color: rgb(var(--primary-white));
+} 
+
+.difference{
+  mix-blend-mode: difference;
+  background-clip: content-box;
+}
